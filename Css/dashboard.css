@@ -288,7 +288,7 @@
  
 .Team-requests-row {
     display: grid;
-    grid-template-columns: minmax(150px, 5fr)1fr 1fr 1.2fr;  
+    grid-template-columns: minmax(150px, 5fr)  1fr 1.2fr;  
     gap: 6px;  
     align-items: center;
     padding:none;  
@@ -1504,15 +1504,12 @@
     }
     
     .Data-Snapshot-container {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
         margin-top: 20px;
     }
 
-    .Data-Snapshot-box {
-        padding: 12px;
-        width: 100%;
-    }
+ 
 
     .Data-Snapshot-title {
         font-size: 26px;
@@ -1526,12 +1523,16 @@
         font-size: 27px;
     }
 
+   .Data-Snapshot-box {
+        padding: 8px;
+        width: 100%;
+    }
     .Data-Snapshot-number {
-        font-size: 27px;  
+        font-size: 20px;  
     }
 
     .Data-Snapshot-label {
-        font-size: 18px;
+        font-size: 12px;
         margin-top: 1px;
     }
     
@@ -1824,15 +1825,12 @@
     }
     
     .Data-Snapshot-container {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
         margin-top: 15px;
     }
 
-    .Data-Snapshot-box {
-        padding: 10px;
-        width: 100%;
-    }
+    
 
     .Data-Snapshot-title {
         font-size: 26px;
@@ -1845,13 +1843,16 @@
         padding-left: 5px;
         font-size: 27px;
     }
-
+    .Data-Snapshot-box {
+        padding: 8px;
+        width: 100%;
+    }
     .Data-Snapshot-number {
-        font-size: 25px;  
+        font-size: 20px;  
     }
 
     .Data-Snapshot-label {
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 1px;
     }
     
